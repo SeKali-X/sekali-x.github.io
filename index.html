@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Zhansar Zhaparov | Portfolio</title>
-  <style>
-    body { margin: 0; font-family: Arial, sans-serif; background: #000; color: #fff; }
-    header { padding: 2rem; text-align: center; background: #000; }
-    nav { margin-top: 1rem; }
-    nav a { margin: 0 1rem; color: #0af; text-decoration: none; font-size: 1.1rem; }
-    section { max-width: 900px; margin: auto; padding: 2rem; }
-    footer { text-align: center; padding: 1rem; background: #000; margin-top: 3rem; }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Zhansar Zhaparov | Portfolio</title>
+<style>
+body { margin: 0; font-family: Arial, sans-serif; background: #000; color: #fff; }
+header { padding: 2rem; text-align: center; background: #000; }
+nav { margin-top: 1rem; }
+nav a { margin: 0 1rem; color: #0af; text-decoration: none; font-size: 1.1rem; }
+section { max-width: 900px; margin: auto; padding: 2rem; }
+footer { text-align: center; padding: 1rem; background: #000; margin-top: 3rem; }
+</style>
 </head>
 <body>
-  <header>
-    <h1>Zhansar Zhaparov</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="resume.pdf" target="_blank">Resume</a>
-    </nav>
-  </header>
+<header style="position:fixed; top:0; left:0; width:100%; background:#000; padding:1rem 2rem; display:flex; justify-content:space-between; align-items:center; z-index:999; box-shadow:0 2px 10px rgba(0,0,0,0.6);">
+<h1 style="margin:0; font-size:1.5rem;">Zhansar Zhaparov</h1>
+<nav>
+<a href="index.html" style="margin:0 1rem; color:#0af; text-decoration:none; font-size:1.1rem;">Home</a>
+<a href="projects.html" style="margin:0 1rem; color:#0af; text-decoration:none; font-size:1.1rem;">Projects</a>
+<a href="resume.pdf" target="_blank" style="margin:0 1rem; color:#0af; text-decoration:none; font-size:1.1rem;">Resume</a>
+<a href="https://https://www.linkedin.com/in/zhansar-zhaparov-8082922aa/" target="_blank" style="margin:0 1rem; color:#0af; text-decoration:none; font-size:1.1rem;">LinkedIn</a>
+</nav>
+</header>
+
+<div style="height:90px;"></div>
+
 
   <section>
     <h2>Welcome</h2>
@@ -86,19 +90,20 @@
 
   <section>
     <h2>Research & Development</h2>
-      <p style="line-height:1.6;">
-      <a href="end_of_summer_paper.pdf" target="_blank">Comparative Study of Corrosion Behavior in Additively
-Manufactured and Wrought Stainless Steel </a><br>
-      <a href="https://www.researchgate.net/publication/393598394_Piezoelectric_energy_harvester_structural_optimization_for_improving_output_characteristics_in_road_environment_conditions" target="_blank">Piezoelectric Energy Harvester ResearchGate Link</a>
-      </p>
-      <div style="text-align:center; background:#111; padding:1.5rem; border-radius:12px;">
-      <img src="SEM.png" alt="SEM Image" style="width:100%; max-width:600px; border-radius:12px;" />
-      <p style="margin-top:0.5rem;">SEM Analysis Image</p>
-      <div style="flex:1 1 350px; max-width:450px;">
-      <img src="apreo_2s.png" alt="Apreo 2S SEM" style="width:100%; border-radius:12px;" />
-      <p style="margin-top:0.5rem;">Scanning-electron microscopy on ThermoFisher Apreo 2S</p>
-</div>
+    <div style="background:#111; padding:1.5rem; border-radius:12px; display:flex; gap:20px; justify-content:center; flex-wrap:wrap; text-align:center;">
+     <div style="flex:1 1 350px; max-width:450px;">
+      <img src="SEM.png" alt="Stainless steel comparison on SEM" style="width:100%; border-radius:12px;" />
+      <p style="margin-top:0.5rem;">Waterjet cutting demonstration</p>
     </div>
+      
+    <div style="flex:1 1 350px; max-width:450px;">
+        <img src="apreo_2s.png" alt="Apreo 2S SEM" style="width:100%; border-radius:12px;" />
+        <p style="margin-top:0.5rem;">Scanning-electron microscopy on ThermoFisher Apreo 2S</p>
+      </div>
+      <a href="end_of_summer_paper.pdf" target="_blank">Comparative Study of Corrosion Behavior in Additively
+      Manufactured and Wrought Stainless Steel </a><br>
+    </div>
+</div>
 </section>
 
 <footer>
